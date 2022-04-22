@@ -63,7 +63,7 @@ export default function UbeBalanceContent({ setShowUbeBalanceModal }: { setShowU
         <CardNoise />
         <CardSection gap="md">
           <RowBetween>
-            <TYPE.white color="white">Your UBE Breakdown</TYPE.white>
+            <TYPE.white color="white">Your TORO Breakdown</TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUbeBalanceModal(false)} />
           </RowBetween>
         </CardSection>
@@ -112,11 +112,11 @@ export default function UbeBalanceContent({ setShowUbeBalanceModal }: { setShowU
               <TYPE.white color="white">{t('TotalSupply')}</TYPE.white>
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' }) ?? <Loader />}</TYPE.white>
             </RowBetween>
-            {ube && ube.chainId === UbeswapChainId.MAINNET ? (
+            {/* {ube && ube.chainId === UbeswapChainId.MAINNET ? (
               <ExternalLink href={`https://info.ubeswap.org/token/${ube.address}`}>
                 {t('ViewUbeAnalytics')}
               </ExternalLink>
-            ) : null}
+            ) : null} */}
           </AutoColumn>
         </CardSection>
         <CardNoise />

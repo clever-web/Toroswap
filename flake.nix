@@ -1,5 +1,5 @@
 {
-  description = "Ubeswap frontend interface";
+  description = "Toroswap frontend interface";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";

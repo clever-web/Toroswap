@@ -25,4 +25,4 @@ const chainIdToName = (chainId: ChainId): string => {
 
 export const NETWORK_CHAIN_NAME: string = chainIdToName(NETWORK_CHAIN_ID)
 
-console.log('Loading Ubeswap interface at', window.location.hostname, networkChainIDFromHostname, NETWORK_CHAIN_ID)
+console.log('Loading Toroswap interface at', window.location.hostname, networkChainIDFromHostname, NETWORK_CHAIN_ID)

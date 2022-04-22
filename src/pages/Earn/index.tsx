@@ -71,7 +71,7 @@ export default function Earn() {
             <CardSection>
               <AutoColumn gap="md">
                 <RowBetween>
-                  <TYPE.white fontWeight={600}>Ubeswap {t('liquidityMining')}</TYPE.white>
+                  <TYPE.white fontWeight={600}>Toroswap {t('liquidityMining')}</TYPE.white>
                 </RowBetween>
                 <RowBetween>
                   <TYPE.white fontSize={14}>{t('liquidityMiningDesc')}</TYPE.white>

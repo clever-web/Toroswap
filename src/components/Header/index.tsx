@@ -500,7 +500,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                UBE
+                TORO
               </UBEAmount>
               <CardNoise />
             </UBEWrapper>

@@ -164,7 +164,7 @@ export const Stake: React.FC = () => {
                 Approving <Loader stroke="white" />
               </AutoRow>
             ) : (
-              'Approve UBE'
+              'Approve TORO'
             )}
           </ButtonPrimary>
         )
